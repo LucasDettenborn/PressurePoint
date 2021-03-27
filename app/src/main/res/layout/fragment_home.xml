@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_marginBottom="2dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/txtTittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="top|left"
+                android:text="Introdução"
+                android:textColor="@color/btnBackgroundColor"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/btnBackgroundColor"
+                android:gravity="bottom|left" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:text="O aplicativo tem o propósito de ajudar a amenizar a sua dor de cabeça através da técnica de Digito-Pressão. A sua dor será medida através de Escala Visual Analógica, após vamos lhe propor métodos de pressão em determinadas partes do sua corpo afim de buscar alívio para a sua cefaleia. Em qualquer situação, recomendamos a consulta a um especialista médico."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="282dp"
+            android:layout_gravity="top"
+            android:layout_marginBottom="2dp"
+            android:padding="8dp">
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/bt_exitSession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="37dp"
+            android:layout_gravity="bottom|right"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_login"
+            app:backgroundTint="@color/btnBackgroundColor" />
+
+        <ImageButton
+            android:id="@+id/bt_viewPastInteractions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="37dp"
+            android:layout_gravity="bottom|right"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_assessment"
+            app:backgroundTint="@color/btnBackgroundColor" />
+
+        <Button
+            android:id="@+id/bt_newPressureProcessFlow"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:minHeight="37dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_button"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:text="Iniciar processo"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            app:backgroundTint="@color/btnBackgroundColor"></Button>
+
+    </LinearLayout>
+
+</FrameLayout>

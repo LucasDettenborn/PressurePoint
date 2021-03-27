@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pontos de pressão</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unitOfMeasurementPoints">pts</string>
+    <string name="scoreOrientationPhaseForReport">Score da fase orientação:</string>
+    <string name="scoreOrientationPracticeForReport">Score da fase prática:</string>
+    <string name="welcomeHomeUserTitle">Olá,</string>
+    <string name="alphaNumericDigits">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ .</string>
+    <string name="heightAndWeightDigits">0123456789,.</string>
+    <string name="genreDigits">FM</string>
+    <string name="numericDigits">0123456789</string>
+</resources>

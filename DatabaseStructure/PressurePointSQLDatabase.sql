@@ -1,0 +1,24 @@
+CREATE TABLE Users (
+    Id INTEGER NOT NULL IDENTITY(50,6) PRIMARY KEY,
+    UserName VARCHAR(80) NOT NULL,
+    Password VARCHAR(256) NOT NULL,
+    ConfirmPassword VARCHAR(256) NOT NULL,
+	Genre CHAR(1) NOT NULL,
+	Age INTEGER NOT NULL,
+	Height VARCHAR(5),
+	Weight VARCHAR(7),
+    ChronicDiseaseObs VARCHAR(255),
+);
+
+CREATE TABLE AnswersFlow (
+	Id	INTEGER NOT NULL IDENTITY(50,6) PRIMARY KEY,
+	Users_Id INTEGER NOT NULL,
+	AnswersDate	DATETIME NOT NULL,
+	LevelBeforePressurePoints INTEGER NOT NULL,
+	LevelAfterPressurePoints INTEGER NOT NULL,
+	GotBetterAfter BIT NOT NULL default 'FALSE'
+);
+
+ALTER TABLE AnswersFlow
+ADD CONSTRAINT FK_Users
+FOREIGN KEY (Users_Id) REFERENCES Users(Id);

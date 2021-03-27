@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ReportFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_marginBottom="2dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/txtTittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="top|left"
+                android:text="Demonstrativo de atividade"
+                android:textColor="@color/btnBackgroundColor"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="top"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/btnBackgroundColor"
+                android:gravity="bottom|left" />
+
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10.0sp"
+            android:id="@+id/listViewReport">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/bt_backToHomeScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="37dp"
+        android:layout_gravity="bottom|right"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_home"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="17dp"
+        app:backgroundTint="@color/btnBackgroundColor" />
+
+</FrameLayout>

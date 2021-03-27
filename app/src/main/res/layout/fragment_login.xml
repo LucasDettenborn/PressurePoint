@@ -17,7 +17,7 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/pp_logo"
+            android:src="@drawable/digito_ajuda_home"
             />
         <LinearLayout
             android:layout_width="wrap_content"

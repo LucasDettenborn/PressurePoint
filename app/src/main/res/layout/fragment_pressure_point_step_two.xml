@@ -219,15 +219,16 @@
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
                     android:gravity="right">
-                    <ImageButton
+                    <Button
                         android:id="@+id/bt_next"
                         android:layout_width="wrap_content"
+                        android:text="SALVAR"
                         android:layout_height="wrap_content"
-                        android:minHeight="37dp"
                         android:layout_gravity="end"
+                        android:minHeight="50dp"
                         android:scaleType="centerInside"
                         android:src="@drawable/ic_save"
-                        app:backgroundTint="@color/btnBackgroundColor"/>
+                        app:backgroundTint="@color/btnBackgroundColor" />
                 </LinearLayout>
             </LinearLayout>
             <View

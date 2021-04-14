@@ -114,7 +114,7 @@
             android:layout_marginTop="5dp"
             android:background="@drawable/round_button"
             android:drawableRight="@drawable/ic_arrow_right"
-            android:text="Iniciar processo"
+            android:text="Iniciar sessão"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             app:backgroundTint="@color/btnBackgroundColor"></Button>

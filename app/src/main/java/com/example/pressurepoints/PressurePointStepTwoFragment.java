@@ -9,6 +9,7 @@ import androidx.navigation.Navigation;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
@@ -89,7 +90,7 @@ public class PressurePointStepTwoFragment extends Fragment {
             }
         });
 
-        ImageButton btnNext = (ImageButton) view.findViewById(R.id.bt_next);
+        Button btnNext = (Button) view.findViewById(R.id.bt_next);
         btnNext.setOnClickListener(new View.OnClickListener()
         {
             @RequiresApi(api = Build.VERSION_CODES.O)

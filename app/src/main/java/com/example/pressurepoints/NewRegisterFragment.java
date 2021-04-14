@@ -82,7 +82,7 @@ public class NewRegisterFragment extends Fragment {
             }
         });
 
-        ImageButton btnSave = (ImageButton) view.findViewById(R.id.bt_submit);
+        Button btnSave = (Button) view.findViewById(R.id.bt_submit);
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
